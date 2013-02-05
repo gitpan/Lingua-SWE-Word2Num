@@ -1,5 +1,5 @@
 ---
-abstract: 'Lingua::SWE::Word2Num is module for converting text containing number representation in svedish back into number. Converts whole numbers from 0 up to 999 999 999 999.'
+abstract: 'Word 2 number conversion in SWE.'
 author:
   - 'PetaMem s.r.o. <info@petamem.com>'
 build_requires:
@@ -20,4 +20,4 @@ requires:
   encoding: 0
   strict: 0
   warnings: 0
-version: 0.044
+version: 0.0577
