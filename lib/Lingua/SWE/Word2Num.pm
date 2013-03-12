@@ -5,6 +5,8 @@ package Lingua::SWE::Word2Num;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
@@ -16,9 +18,9 @@ use encoding 'utf8';
 # }}}
 # {{{ variable declarations
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 our $INFO    = {
-    rev  => '$Rev: 577 $',
+    rev  => '$Rev: 682 $',
 };
 
 my $parser = sv_numerals();
@@ -136,12 +138,12 @@ Lingua::SWE::Word2Num
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 text to positive number convertor for Swedish.
 Input text must be encoded in utf-8.
 
-=head2 $Rev: 577 $
+=head2 $Rev: 682 $
 
 ISO 639-3 namespace.
 
